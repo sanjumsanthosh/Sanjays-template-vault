@@ -1,0 +1,35 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Settings/Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "Settings/Scripts/TP user scripts",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Journel/Daily",
+      "template": "Settings/Templates/Template - Daily.md"
+    },
+    {
+      "folder": "Journel/Weekly",
+      "template": "Settings/Templates/Template - Weekly.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    "Settings/Templates/Template - Daily.md"
+  ],
+  "enable_ribbon_icon": true
+}

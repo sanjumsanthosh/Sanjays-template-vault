@@ -1,0 +1,81 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "quickadd:choice:45d9d612-52d5-4832-b16b-0492c2c516f5",
+      "icon": "trending-up",
+      "name": "QuickAdd: New Research",
+      "mode": "any",
+      "color": "#c8ff00"
+    },
+    {
+      "id": "quickadd:choice:342ea400-015a-47e2-8fdf-e19251bc889d",
+      "icon": "clipboard-copy",
+      "name": "QuickAdd: New Activity",
+      "mode": "any",
+      "color": "#ff0000"
+    },
+    {
+      "id": "quickadd:choice:df94f717-a899-4adb-baa9-799df2cfffc6",
+      "icon": "album",
+      "name": "QuickAdd: New Project",
+      "mode": "any",
+      "color": "#dc5cff"
+    },
+    {
+      "id": "quickadd:choice:53a9b746-098a-40a3-8f2b-3a08fdcaeb4e",
+      "icon": "network",
+      "name": "QuickAdd: New Article",
+      "mode": "any",
+      "color": "#0bfe1c"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "quickadd:choice:bcd5ff70-539f-486d-9bf5-5ba3383637c9",
+      "icon": "plus-circle",
+      "name": "QuickAdd: New Task",
+      "mode": "any",
+      "color": "#37ff00"
+    },
+    {
+      "id": "quickadd:choice:889a6200-2a28-4a35-b5d8-74de7fd4a746",
+      "icon": "timer-reset",
+      "name": "QuickAdd: New Micromanage todo",
+      "mode": "any",
+      "color": "#8aadff"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Templater",
+      "Omnisearch",
+      "Advanced Tables Toolbar",
+      "Open command palette",
+      "Insert template",
+      "Open today's daily note",
+      "Create new canvas"
+    ]
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

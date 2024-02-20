@@ -1,0 +1,863 @@
+{
+  "choices": [
+    {
+      "id": "45d9d612-52d5-4832-b16b-0492c2c516f5",
+      "name": "New Research",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Settings/Templates/Template - Research.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "bcd5ff70-539f-486d-9bf5-5ba3383637c9",
+      "name": "New Task",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Journel/Daily/{{date:DD-MMM-YYYY}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE: Task Name}} 📅 {{VDATE: Due date, YYYY-MM-DD}} {{VALUE: ⏫,🔼,🔽,⏬}} \\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Todo's",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "889a6200-2a28-4a35-b5d8-74de7fd4a746",
+      "name": "New Micromanage todo",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "> - [ ] {{VALUE: Task Name}} #micro-mng-todo\\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "> [!success]-  Micromanage me : !",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "342ea400-015a-47e2-8fdf-e19251bc889d",
+      "name": "New Activity",
+      "type": "Macro",
+      "command": true,
+      "macroId": "5732bf74-93a3-477e-b397-22a3b36a121d"
+    },
+    {
+      "id": "df94f717-a899-4adb-baa9-799df2cfffc6",
+      "name": "New Project",
+      "type": "Macro",
+      "command": true,
+      "macroId": "bb64bfac-0012-48ea-8574-b416917d34cf"
+    },
+    {
+      "id": "53a9b746-098a-40a3-8f2b-3a08fdcaeb4e",
+      "name": "New Article",
+      "type": "Macro",
+      "command": true,
+      "macroId": "502dcd8e-6c2e-44c2-a393-a09b14deffe3"
+    },
+    {
+      "id": "90fb45d2-673e-446a-9e81-6aada63b04da",
+      "name": "New Micromanage todo inline",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "\\n- [ ] {{VALUE: Task Name}} #micro-mng-todo"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "df29473d-155a-4d58-9d41-50d37e79c95d",
+      "name": "Add link",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "[🖇️]({{VALUE:Link?}})"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "93d99afd-14ee-494c-83b4-74ac9d5a9f4a",
+      "name": "New Article - inline",
+      "type": "Macro",
+      "command": true,
+      "macroId": "459d2df7-530d-4085-b0a9-4deccaaccee7"
+    },
+    {
+      "id": "911fea34-04ab-40d7-924e-8a95734c359f",
+      "name": "Callout",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "> [!{{VALUE: todo,success,warning,fail,example,quote }}]- {{VALUE: 🔦Heading}}\n> {{VALUE: 📝 Content}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "c0cf7f09-235b-48f8-b64e-3eb60a3b13a8",
+      "name": "New Timestamp",
+      "type": "Macro",
+      "command": true,
+      "macroId": "77c7bee2-56cd-46ae-812d-0546bbb49b30"
+    },
+    {
+      "id": "113299b6-2f4b-47f0-8ef6-696aa12ef9cf",
+      "name": "Init Youtube",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "```timestamp-url \n{{VALUE: 🔗 Youtube link }}\n```\n\n\n```button\nname Add timestamp\ntype command\naction QuickAdd: New Timestamp\n```\n\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "cd57c675-0af2-4418-ae77-e848f349b386",
+      "name": "journel_daily_summary",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "What_things_did_I_do_particularly_well_today : {{VALUE: 🏆 What things did I do particularly well today ? }}\nHow_could_I_have_made_today_better : {{VALUE: 🤔 How could I have made today better ? }}\nWhat_is_my_most_important_goal_for_tomorrow : {{VALUE: 🎯 What is my most important goal for tomorrow ? }}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "---",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [
+    {
+      "name": "New Activity",
+      "id": "5732bf74-93a3-477e-b397-22a3b36a121d",
+      "commands": [
+        {
+          "name": "Add new activity note",
+          "type": "NestedChoice",
+          "id": "2d647ee1-3ac7-4367-8e0e-05f8ceda2a0c",
+          "choice": {
+            "id": "1dd9ec0a-51ed-4f47-b573-ec9909035a78",
+            "name": "Add new activity note",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Settings/Templates/Template - Activity.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:⚒ Add Activity}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Activities"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "6d5564b6-7f08-49b5-9bb1-3fc068b1ca30",
+          "time": 200
+        },
+        {
+          "name": "Send to Kanban board",
+          "type": "NestedChoice",
+          "id": "994b24ee-e257-4af6-8da8-5c3200c6ec52",
+          "choice": {
+            "id": "56d6273f-4c40-48ea-a404-b34eaef98722",
+            "name": "Send to Kanban board",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Visualizations/Kanban/Activities Kanban.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[[{{VALUE:⚒ Add Activity}}]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## Unresolved",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Adding daily task",
+          "type": "NestedChoice",
+          "id": "e5d01f05-7844-4e08-baa2-a86a952a039b",
+          "choice": {
+            "id": "8ccc2765-754c-4d52-b866-8f7c9219dbae",
+            "name": "Adding daily task",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Journel/Daily/{{date:DD-MMM-YYYY}}",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- [ ] ( ACTIVITY ) [[{{VALUE:⚒ Add Activity}}]] 📅 {{date:YYYY-MM-DD}} ⏬ \\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## Todo's",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "New Project",
+      "id": "bb64bfac-0012-48ea-8574-b416917d34cf",
+      "commands": [
+        {
+          "name": "New project",
+          "type": "NestedChoice",
+          "id": "f0f1dc2d-eba2-4c16-beb1-f3a8dc2f11a0",
+          "choice": {
+            "id": "36001bb2-a63f-4819-b1e4-7e14394a9452",
+            "name": "New project",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Settings/Templates/Template - Project.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:⚒ Add Project}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Projects"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "eb045320-0871-492e-8206-d041cd476979",
+          "time": 200
+        },
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "c7b502b9-30b2-4e72-85d0-6c5327db5df8",
+          "choice": {
+            "id": "4523d25b-fdc4-4a17-9939-2d42b9d5bcb2",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Visualizations/Kanban/Projects Kanban.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "\\n- [ ] [[{{VALUE:⚒ Add Project}}]] - {{VALUE: #tutorial, #something-new, #try-it-out, #reserch}}"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## Unresolved",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "New Article",
+      "id": "502dcd8e-6c2e-44c2-a393-a09b14deffe3",
+      "commands": [
+        {
+          "name": "New Article note",
+          "type": "NestedChoice",
+          "id": "0fecec9c-6097-4872-b300-06beddbb4e65",
+          "choice": {
+            "id": "f8d0e2a8-4ff3-418d-b66e-0063110ba285",
+            "name": "New Article note",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Settings/Templates/Template - Article.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:⚒ Add Article}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Articles"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "5a3971a7-b40c-4ea8-aa26-802beb98b18d",
+          "time": 200
+        },
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "439456ca-6ed7-477d-8f41-6d7db0c905a6",
+          "choice": {
+            "id": "19cc0401-f459-4875-95cf-0a71058d5399",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Visualizations/Kanban/Article Kanban.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "\\n- [ ] [[{{VALUE:⚒ Add Article}}]] - {{VALUE: #blog, #official, #docs, #paper, #post, #cool-tool, #youtube, #reddit, #github, #found-in-X}}"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## Unknown",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "12f1d9f9-8076-4525-be06-54607afcc4bb",
+          "time": 100
+        },
+        {
+          "name": "Add to TODO",
+          "type": "NestedChoice",
+          "id": "a26f7f53-9e42-4641-b419-e65dfd8772f0",
+          "choice": {
+            "id": "f3cd2376-590f-40e0-952b-392b54113ff2",
+            "name": "Add to TODO",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Journel/Daily/{{date:DD-MMM-YYYY}}",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- [ ] (ARTICLE) [[{{VALUE:⚒ Add Article}}]] 📅 {{date:YYYY-MM-DD}} ⏬ \\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## Todo's",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "New Article - inline",
+      "id": "459d2df7-530d-4085-b0a9-4deccaaccee7",
+      "commands": [
+        {
+          "name": "New inline article",
+          "type": "NestedChoice",
+          "id": "d768119b-22d3-4eaa-a254-e84f80a9b1dc",
+          "choice": {
+            "id": "adf66bd9-d13e-4b96-a8c3-d03525fba26a",
+            "name": "New inline article",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Settings/Templates/Template - Article.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:⚒ Add Article}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "8e012845-fc59-40e7-98f3-accd39288323",
+          "time": 200
+        },
+        {
+          "name": "kanban",
+          "type": "NestedChoice",
+          "id": "486d7144-07cc-444f-ba7d-688f472fa553",
+          "choice": {
+            "id": "2e04eb50-6b9d-479c-bc57-f2cb418af749",
+            "name": "kanban",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Visualizations/Kanban/Article Kanban.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "\\n- [ ] [[{{VALUE:⚒ Add Article}}]] - {{VALUE: #blog, #official, #docs, #paper, #post, #cool-tool, #youtube, #reddit}}"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## Unknown",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "New Timestamp",
+      "id": "77c7bee2-56cd-46ae-812d-0546bbb49b30",
+      "commands": [
+        {
+          "name": "add new section",
+          "type": "NestedChoice",
+          "id": "7c27ae4f-c1b0-47ad-b512-8a9e13313f70",
+          "choice": {
+            "id": "1611c2c3-319a-409e-afd1-fbcbc0b8e2cb",
+            "name": "add new section",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "\n----\n"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Timestamp Notes: Insert timestamp based on videos current play time",
+          "type": "Obsidian",
+          "id": "16606610-d0c4-4bb5-ab40-f04ba55a300d",
+          "commandId": "obsidian-timestamp-notes:timestamp-insert"
+        },
+        {
+          "name": "Note",
+          "type": "NestedChoice",
+          "id": "858f845b-5c1e-4312-bd73-f10dd653ac00",
+          "choice": {
+            "id": "2d92e0b7-67ac-4fa0-9ad2-e700ce891636",
+            "name": "Note",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "***{{VALUE: 📝 Comment ?}}*** \n"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "1.7.0",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1701502530506,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1701502525059,
+          "path": "Research Summary.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1701502525059,
+          "path": "Visualizations/Summary/Activity Summary.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1701502525059,
+          "path": "To-dos.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1701502525059,
+          "path": "Visualizations/Summary/Article Summary.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1703961206266,
+          "path": "Research/Research Folder.md"
+        }
+      ],
+      "title": "Quick summary"
+    },
+    {
+      "type": "file",
+      "ctime": 1701547264276,
+      "path": "Kanban/Activities Kanban.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1701593113588,
+      "path": "Visualizations/Kanban/Projects Kanban.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1701630983166,
+      "path": "Visualizations/Kanban/Article Kanban.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1701593113588,
+      "path": "Visualizations/Kanban/Activities Kanban.md"
+    }
+  ]
+}

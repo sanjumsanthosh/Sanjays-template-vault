@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "useMoment": false,
+      "file": "Visualizations/Kanban/Activities Kanban.md"
+    },
+    {
+      "useMoment": false,
+      "file": "Visualizations/Kanban/Projects Kanban.md"
+    },
+    {
+      "useMoment": false,
+      "file": "Visualizations/Kanban/Article Kanban.md"
+    }
+  ],
+  "useExistingPane": true,
+  "useHoverEditor": false
+}

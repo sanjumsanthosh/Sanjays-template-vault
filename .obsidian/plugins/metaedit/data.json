@@ -1,0 +1,38 @@
+{
+  "ProgressProperties": {
+    "enabled": false,
+    "properties": []
+  },
+  "IgnoredProperties": {
+    "enabled": false,
+    "properties": []
+  },
+  "AutoProperties": {
+    "enabled": false,
+    "properties": []
+  },
+  "EditMode": {
+    "mode": "All Single",
+    "properties": []
+  },
+  "KanbanHelper": {
+    "enabled": true,
+    "boards": [
+      {
+        "property": "status",
+        "boardName": "Activities Kanban"
+      },
+      {
+        "property": "status",
+        "boardName": "Projects Kanban"
+      },
+      {
+        "property": "type",
+        "boardName": "Article Kanban"
+      }
+    ]
+  },
+  "UIElements": {
+    "enabled": true
+  }
+}

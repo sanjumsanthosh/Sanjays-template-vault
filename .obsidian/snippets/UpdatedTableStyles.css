@@ -1,0 +1,27 @@
+/* --------------------------------------------   */
+/* Table tableProgressView */
+/* --------------------------------------------   */
+
+/* style for table */
+.tableProgressView table{
+    
+}
+
+/* style for table row */
+.tableProgressView tr {
+    border-bottom: 1px solid #454545;
+}
+
+/* style for table data */
+.tableProgressView td {
+    padding: 9px 20px;
+    vertical-align: middle;
+}
+
+
+/* style for mobile view */
+@media (max-width: 768px) {
+    .tableProgressView td:first-child {
+        min-width: 200px;
+    }
+}
