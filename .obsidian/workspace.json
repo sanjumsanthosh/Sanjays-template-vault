@@ -127,7 +127,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journel/Weekly/2024-W08.md"
+              }
             }
           },
           {
@@ -204,8 +206,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5ce496889866d2f3",
+  "active": "264afc7e47c6133e",
   "lastOpenFiles": [
+    "Journel/Weekly/2024-W08.md",
     "Journel/Daily/20-Feb-2024.md",
     "Activities/test activity.md",
     "Visualizations/Kanban/Activities Kanban.md",
@@ -213,7 +216,6 @@
     "Visualizations/Kanban/Projects Kanban.md",
     "Visualizations/Kanban/Article Kanban.md",
     "To-dos.md",
-    "Journel/Weekly/2024-W08.md",
     "Articles/History of ML.md",
     "Research/📃 All Abt ML Archetectures/Notes/ML Archetectures - Design Usecases.md",
     "Articles/Mastering RAG -  How To Architect An Enterprise RAG System.md",
